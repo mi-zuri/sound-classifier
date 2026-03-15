@@ -1,0 +1,8 @@
+.idea
+.vscode
+.venv
+.DS_Store
+
+personality_dataset.csv
+part1_tabular.ipynb
+part1_tabular2.ipynb
