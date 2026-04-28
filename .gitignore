@@ -2,6 +2,7 @@
 .vscode
 .venv
 .DS_Store
+.claude
 
 personality_dataset.csv
 part1_tabular.ipynb

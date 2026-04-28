@@ -2,14 +2,20 @@
 
 Two-part data mining project. Part 1 clusters a personality/behavior dataset with classical tabular methods; part 2 classifies musical instrument sounds, comparing hand-crafted audio features against pretrained PANNs embeddings.
 
+---
+
+![classification preview](docs/images/preview.png)
+
+---
+
 ## Notebooks
 
-| File | What it does |
-|---|---|
-| `part1_tabular.ipynb` | EDA, imputation, encoding, and clustering of the Extrovert-vs-Introvert dataset (2,900 records × 8 features). |
-| `part1_tabular2.ipynb` | Same workflow, alternative run. |
-| `part2_sound.ipynb` | Classifies Kaggle's Musical Instruments dataset with two embedding types — classical DSP features vs PANNs (2048-dim). |
-| `personality_dataset.csv` | Input for part 1. |
+| File                      | What it does                                                                                                           |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `part1_tabular.ipynb`     | EDA, imputation, encoding, and clustering of the Extrovert-vs-Introvert dataset (2,900 records × 8 features).          |
+| `part1_tabular2.ipynb`    | Same workflow, alternative run.                                                                                        |
+| `part2_sound.ipynb`       | Classifies Kaggle's Musical Instruments dataset with two embedding types — classical DSP features vs PANNs (2048-dim). |
+| `personality_dataset.csv` | Input for part 1.                                                                                                      |
 
 ## Part 1 — Tabular
 
